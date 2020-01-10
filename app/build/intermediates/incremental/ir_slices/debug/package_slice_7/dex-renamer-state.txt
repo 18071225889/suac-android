@@ -1,0 +1,4 @@
+#Fri Jan 10 18:14:14 CST 2020
+base.0=D\:\\git\\suacandroid\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\7
+path.0=classes.dex
+renamed.0=classes.dex
