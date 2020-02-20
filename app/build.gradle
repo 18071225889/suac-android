@@ -1,14 +1,14 @@
 apply plugin: 'com.android.application'
 
 android {
-    signingConfigs {
-        config {
-            keyAlias 'nine'
-            keyPassword 'qwer1234'
-            storeFile file('F:/keyWork/Nine.jks')
-            storePassword 'qwer1234'
-        }
-    }
+//    signingConfigs {
+//        config {
+//            keyAlias 'nine'
+//            keyPassword 'qwer1234'
+//            storeFile file('F:/keyWork/Nine.jks')
+//            storePassword 'qwer1234'
+//        }
+//    }
     compileSdkVersion 28
     defaultConfig {
         applicationId "ichooseyu.online.app"
@@ -24,7 +24,7 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
         debug {
-            signingConfig signingConfigs.config
+//            signingConfig signingConfigs.config
         }
     }
 }
